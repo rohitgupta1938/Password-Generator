@@ -60,7 +60,6 @@ function App() {
               value={length}
               min={6}
               max={99}
-              className='cursor-pointer'
               onChange={(e) => { setLength(e.target.value) }}
             />
             <label>length : ({length})</label>
